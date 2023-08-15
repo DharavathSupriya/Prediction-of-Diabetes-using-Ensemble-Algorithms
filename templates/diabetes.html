@@ -1,0 +1,168 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Diabetes Pediction</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+      crossorigin="anonymous"
+    ></script>
+    <style>
+      /* Style for the window container */
+      .window-container {
+        display: flex;
+        overflow-x: scroll;
+        -ms-overflow-style: none; /* hide scrollbar in Edge */
+        scrollbar-width: none; /* hide scrollbar in Firefox */
+      }
+      /* Hide scrollbar for Chrome, Safari and Opera */
+      .window-container::-webkit-scrollbar {
+        display: none;
+      }
+      /* Style for the window item */
+      .window-item {
+        flex: 0 0 auto;
+        width: 400px;
+        height: 300px;
+        margin:0 auto;
+        /*margin-right: 20px;*/
+        background-color: #f2f2f2;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+        padding:30x;
+        box-shadow: 0 2px 2px rgba(0, 0, 0, 0.1);
+        transition: all 0.3s ease-in-out;
+        align-items: center;
+      }
+      .window-item:hover {
+        transform: scale(1.1);
+        box-shadow: 0 6px 6px rgba(0, 0, 0, 0.1);
+      }
+    </style>
+  </head>
+  <body style="background-color:  #f0f0f0;">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo03" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <a class="navbar-brand" href="index.html"><h1> Diabetes Prediction </h1></a>
+          </button>
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="index.html"><h2>Home</h2></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="diabetes.html"><h2>Diabetes</h2></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <li class="nav-item">
+              <a class="nav-link" href="home.html"><h2>Predict</h2></a>
+            </li>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+            <!--<li class="nav-item">
+              <a class="nav-link" href="About.html"><h2>About</h2></a>
+            </li>-->
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <br>
+    <br>
+    <br>
+    <br>
+    <div class="container" style="justify-content: center;">
+        <!--<img src="pic.jpg" alt="Diabetes test"width=390px height="380px">-->
+        <h2 style="text-align:center">All about Diabetes</h2>
+        <h4>Diabetes is a chronic (long-lasting) health condition that affects how your body turns food into energy</h4></center>
+        
+        <h5 style="color:rgb(13, 5, 63); text-align:justify;">
+          Diabetes is a chronic condition that affects the way the body processes blood sugar (glucose), 
+          which is the primary source of energy for cells. The hormone insulin, produced by the pancreas,
+          regulates the amount of glucose in the blood. In people with diabetes, either the pancreas does not produce enough insulin or the body cannot effectively use the insulin it produces.<br> As a result, glucose builds up in the blood, which can lead to a range of complications.          
+          There are several types of diabetes</h5>
+        
+              <!--<li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Dropdown</a>-->
+                <ul class="dropdown-menu">
+                  <li><a class="dropdown-item" href="#scrollspyHeading3">Third</a></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading4">Fourth</a></li>
+                  <li><hr class="dropdown-divider"></li>
+                  <li><a class="dropdown-item" href="#scrollspyHeading5">Fifth</a></li>
+                </ul>
+              <!--</li>-->
+              <br>
+              <br>
+              
+         <!-- <div data-bs-spy="scroll" data-bs-target="#navbar-example2" data-bs-offset="0" class="scrollspy-example" tabindex="0">
+            <h4 id="scrollspyHeading1">Type 1 diabetes</h4>
+            <h5>This is an autoimmune disease in which the immune system attacks and destroys the insulin-producing cells in the pancreas.<br> People with type 1 diabetes require daily injections of insulin to regulate their blood sugar levels</h5>
+            <br>
+            <br>
+            
+            <h4 id="scrollspyHeading2">Type 2 diabetes</h4>
+            <h5>This is the most common form of diabetes, accounting for 90-95% of cases. <br>In type 2 diabetes, the body becomes resistant to the effects of insulin and/or the pancreas does not produce enough insulin to meet the body's needs. <br>Type 2 diabetes is often associated with obesity, a sedentary lifestyle, and poor diet.</h5>
+            
+            <br>
+            <br>
+          </div>-->
+          
+            
+              <div class="container-fluid">
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                <div class="window-container">
+                  <div class="window-item">
+                    <br>
+                    <br>
+                    <h2>&nbsp;&nbsp;Type 1 diabetes</h2>
+                    <p> &nbsp;&nbsp;
+                        This is an autoimmune disease in which the immune
+                        &nbsp;&nbsp;system attacks and destroys the insulin-producing cells 
+                        &nbsp;&nbsp;in the pancreas.
+                         People with type 1 diabetes require 
+                         &nbsp;&nbsp;daily injections 
+                         of insulin to regulate their blood sugar 
+                         &nbsp;&nbsp;levels
+                      </p>
+                  </div>
+                  <div class="window-item">
+                    <br>
+                    <br>
+                    <h2>&nbsp;&nbsp;Type 2 diabetes</h2>
+                    <p align:"justify">&nbsp;&nbsp;This is the most common form of diabetes, accounting &nbsp;&nbsp;for 90-95% of cases. 
+                      In type 2 diabetes, the body &nbsp;&nbsp;becomes resistant to the effects of insulin and/or the &nbsp;&nbsp;pancreas does not produce enough insulin to meet the &nbsp;&nbsp;body's needs. 
+                      Type 2 diabetes is often associated with &nbsp;&nbsp;obesity, a sedentary lifestyle, and poor diet.
+                    </p>
+                    <br>
+                    <br>
+                  </div>
+                  <br>
+                    <br>
+                </div>
+              
+              </div>
+              <br>
+            <br>
+             
+            <b><h5>Gestational diabetes</b> occurs when your body can't make enough insulin during your pregnancy.<br> Insulin is a hormone made by your pancreas that acts like a key to let blood sugar into the cells in your body for use as energy.
+              </h5>
+              <br>
+            <br>
+            <br>
+            <br>
+            
+              </body>
+
+</html>
+
