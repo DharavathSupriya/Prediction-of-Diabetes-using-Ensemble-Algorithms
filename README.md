@@ -9,3 +9,14 @@ Diabetes, a metabolic disorder caused by insufficient insulin due to pancreatic 
 - scikit-learn: 0.22.1
 - XGBoost: 1.0.9
 - SciPy: 1.4.1
+
+## Results demonstration
+### Negative sample
+![alt text](https://github.com/DharavathSupriya/Prediction-of-Diabetes-using-Ensemble-Algorithms/blob/master/assets/images/Screenshot%202023-08-13%20000023.png)
+
+![alt text](https://github.com/DharavathSupriya/Prediction-of-Diabetes-using-Ensemble-Algorithms/blob/master/assets/images/Screenshot%202023-08-13%20000005.png)
+
+### Positive Sample
+![alt text](https://github.com/DharavathSupriya/Prediction-of-Diabetes-using-Ensemble-Algorithms/blob/master/assets/images/Screenshot%202023-08-12%20235752.png)
+
+![alt text](https://github.com/DharavathSupriya/Prediction-of-Diabetes-using-Ensemble-Algorithms/blob/master/assets/images/Screenshot%202023-08-12%20235652.png)
